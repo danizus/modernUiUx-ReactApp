@@ -387,7 +387,8 @@ flex-shrink: 0;
   justify-content: center;
   align-items: center;
  
-  padding: 5rem 2rem;
+  padding: 10rem 2rem;
+
 } 
 .chef img{
   width: 550px;
@@ -445,6 +446,9 @@ color: #AAAAAA;
   width: 200px;
 }
 
+
+
+/* video */
 .video-div{
   height: 100vh;
   position: relative;
@@ -484,8 +488,21 @@ cursor: pointer;
 
 
 
+@media screen and (max-width:2000px){
+.main-belief{
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: auto;
 
+  justify-content: center;
+  align-items: center;
+ 
+  padding: 5rem 1rem;
 
+} 
+}
 
 
 
@@ -495,6 +512,9 @@ cursor: pointer;
     width: 210px;
    
    }
+   
+  
+  
 
 }
 
@@ -562,7 +582,7 @@ cursor: pointer;
   
   
   .img-container-welcome img{
-    width: 100px;
+    width: 300px;
   
   }
 
@@ -722,7 +742,76 @@ height: 500px;
 flex-shrink: 0;
 }
 
+.main-belief{
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+  padding: 5rem 0rem;
+
+} 
+.chef img{
+  width: 400px;
+  height: 500px;
+}
+.what-we-believe{
+  width: 80%;
   
+ 
+  margin-left: 0px;
+}
+.what-we-believe h1{
+  margin-top:1rem ;
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 30px;
+  font-weight: 600;
+line-height: 130%; /* 83.2px */
+letter-spacing: 1.92px;
+text-transform: capitalize;
+}
+.quotes img{
+width: 40px;
+margin: 0  5px;
+}
+.what-we-believe {
+color: var(--color-grey);
+}
+
+.Founder{
+  margin-top: 4rem;
+}
+
+.Founder p{
+  font-family: Cormorant Upright;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 41.6px */
+letter-spacing: 1.28px;
+text-transform: capitalize;
+color: var(--color-golden);
+}
+.founder small{
+  font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+color: #AAAAAA;
+}
+
+.sign img{
+  margin-top: 3rem;
+  width: 150px;
+}
+
 
 }
 
@@ -937,6 +1026,82 @@ height: 500px;
 flex-shrink: 0;
 }
 
+
+
+
+
+/* BELIEFS */
+.main-belief{
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+  padding: 5rem 0rem;
+
+} 
+.chef img{
+  width: 300px;
+  height: 400px;
+}
+.what-we-believe{
+  width: 80%;
+  
+ 
+  margin-left: 0px;
+}
+.what-we-believe h1{
+  margin-top:1rem ;
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 30px;
+  font-weight: 600;
+line-height: 130%; /* 83.2px */
+letter-spacing: 1.92px;
+text-transform: capitalize;
+}
+.quotes img{
+width: 40px;
+margin: 0  5px;
+}
+.what-we-believe {
+color: var(--color-grey);
+}
+
+.Founder{
+  margin-top: 4rem;
+}
+
+.Founder p{
+  font-family: Cormorant Upright;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 41.6px */
+letter-spacing: 1.28px;
+text-transform: capitalize;
+color: var(--color-golden);
+}
+.founder small{
+  font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+color: #AAAAAA;
+}
+
+.sign img{
+  margin-top: 3rem;
+  width: 150px;
+}
+
+
 }
 
 
@@ -954,6 +1119,11 @@ flex-shrink: 0;
    }
    .login-resgister a{
   font-size: 14px;
+  }
+
+  .chef img{
+    width: 250px;
+    height: 350px;
   }
 
 }
@@ -1047,6 +1217,29 @@ height: 300px;
 flex-shrink: 0;
 }
 
+
+.chef img{
+  width: 250px;
+  height: 350px;
+}
+/* video */
+
+
+.video-div{
+  height: 20vh;
+  position: relative;
+  
+ ;}
+
+
+  .video-div video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+
+}
+
 }
 @media screen and (max-width:479px){
   .nav-logo img{
@@ -1059,5 +1252,36 @@ flex-shrink: 0;
    .login-resgister a{
   font-size: 10px;
   }
+
+
+  .chef img{
+    width: 200px;
+    height: 300px;
+  }
+  
+  .what-we-believe{
+    width: 70%;
+    
+   
+    margin-left: 0px;
+  }
+
+  /* video */
+
+  .video-div{
+    height: 20vh;
+    position: relative;
+    
+   ;}
+  
+  
+    .video-div video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   
+  
+  }
+  
 
 }
